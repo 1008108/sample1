@@ -1,0 +1,5 @@
+The python version used in the script is 2.7. Hence Dockerfile was built with the same version.
+
+In order to lookup the Mac address in Macaddress.io we need  python requests module. Thus is was added into dependency.
+
+An ENTRYPOINT was created because the docker image would require mac address from command line.
